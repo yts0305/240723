@@ -1,0 +1,31 @@
+1. 다음 코드에서 문제를 찾고, 그 원인을 설명하세요.
+
+Queue queue = new Queue();
+queue.Enqueue(10)
+queue.Enqueue("한글")
+queue.Enqueue(3.14)
+
+Queue<int> queue2 = new Queue<int>();
+queue2.Enqueue(10);
+queue2.Enqueue("한글");
+queue2.Enqueue(3.14);
+
+queue2 는 int값으로 선언했기에 int값만 받을 수 있다.
+
+다음코드에서 1 에 들어갈 내용은 무엇입니까?
+
+Dictionary< 1 > dic = new Dictionary< 1 >();
+dic["하나"] = "one";
+dic["둘"] = "two";
+dic["셋"] = "three";
+dic["넷"] = "four";
+dic["다섯"] = "five";
+
+Console.WriteLine(dic["하나"]);
+Console.WriteLine(dic["둘"]);
+Console.WriteLine(dic["셋"]);
+Console.WriteLine(dic["넷"]);
+Console.WriteLine(dic["다섯"]);
+
+
+string, string
